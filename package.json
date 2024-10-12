@@ -1,0 +1,22 @@
+{
+  "name": "nyaproxy",
+  "version": "1.0.0",
+  "description": "A NyaDraw WebSocket Client",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg":{
+    "assets": "wsCmd/**/*",
+    "targets":[
+        "node18-win-x64"
+    ]
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
